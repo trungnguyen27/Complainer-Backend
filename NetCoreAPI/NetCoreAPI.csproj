@@ -5,11 +5,45 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20180519041550_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519041550_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180519051934_BasicStructure.cs" />
+    <Compile Remove="Migrations\20180519051934_BasicStructure.Designer.cs" />
+    <Compile Remove="Migrations\20180519053820_BasicStructure.cs" />
+    <Compile Remove="Migrations\20180519053820_BasicStructure.Designer.cs" />
+    <Compile Remove="Migrations\20180519060844_BasicStruture.cs" />
+    <Compile Remove="Migrations\20180519060844_BasicStruture.Designer.cs" />
+    <Compile Remove="Migrations\20180519063814_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519063814_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180519063936_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519063936_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180519070831_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519070831_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180519171009_ChangeFeedback.cs" />
+    <Compile Remove="Migrations\20180519171009_ChangeFeedback.Designer.cs" />
+    <Compile Remove="Migrations\20180519171245_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519171245_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180519174610_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180519174610_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180525161115_AddBaseModel.cs" />
+    <Compile Remove="Migrations\20180525161115_AddBaseModel.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.Development.json" />
+    <Content Remove="appsettings1.Development.json" />
+    <Content Remove="appsettings2.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.Azure.NotificationHubs" Version="2.0.0-preview2" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="3.0.0-preview" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
