@@ -18,7 +18,7 @@ namespace NetCoreAPI
 
         public NotificationHub()
         {
-            hub = NotificationHubClient.CreateClientFromConnectionString("Endpoint=sb://mynamespacess.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=b8emrynaX0khbrg6/8QrNesIBELmMrxPvED10EWUmN8=", "TestAppNotiHub");
+            hub = NotificationHubClient.CreateClientFromConnectionString("Endpoint=sb://mynamespacess.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=[sharedkey]", "TestAppNotiHub");
         }
 
         public string GetActionChangedToast()
